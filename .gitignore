@@ -57,23 +57,12 @@ dkms.conf
 # Build
 build/
 
-# Prerequisites
-*.d
+# clangd / LSP
+.cache/
+compile_commands.json
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Crash dumps and valgrind
+core
+core.*
+vgcore.*
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
